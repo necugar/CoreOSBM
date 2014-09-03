@@ -1,0 +1,14 @@
+#cloud-config
+#
+#Set Hostname
+hostname: CoreBM1
+
+#Set SSH Key
+ssh_authorized_keys:
+ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQCaD7ccKNeMpDL4+vhRIMtCI/8qe6JjYGEzitDS1j9KgAUVTYIsAR3M8wCeM1zH91tSemLvxMONG1hYZgxAssIGfZMk06ZEo4mEMw3sMiPftZUUNHKbhPtxwN3GCbGFOxPOdPp3OVElFk3uvTmYrh83mzbJcmWI9jgbwU8suMoiTf/d11OlyKCWCfS+SFd+Eg4EnDIANRzhGQ6xoWDP0qqOeJ/AE+VFaaIXco2+smxf2nZY09/ic9K+2sZs5vFLjfZAWvYH2pqN0FDBb/3AAvIWRu1svUL6JY0SEGx6w3rhJightfpGegA9L8z60H3AGSU64YZP5m1T1x5zslPVrgSf necugar@ncgmac.local
+coreos:
+	etcd:
+	# Genero un nuevo Token para el cluster desde  https://discovery.etcd.io/new
+	discovery:https://discovery.etcd.io/d8fbabc3377c4ec513faa697c69da481
+
+
