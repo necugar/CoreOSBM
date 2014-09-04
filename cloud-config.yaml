@@ -18,7 +18,7 @@ coreos:
         [Match]
         Name=ens3
         [Network]
-        Address=192.168.1.10/24
+        Address=192.168.1.10/10
         Gateway=192.168.1.1
         DNS=200.48.225.130
         DNS=200.48.225.146
