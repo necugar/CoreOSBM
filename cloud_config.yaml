@@ -13,7 +13,7 @@ coreos:
       command: start
     - name: fleet.service
       command: start
-	- name: static.network
+    - name: static.network
       content: |
         [Match]
         Name=ens3
