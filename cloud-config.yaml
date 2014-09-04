@@ -6,7 +6,7 @@ hostname: CoreBM1
 coreos:
   etcd:
   # Genero un nuevo Token para el cluster desde  https://discovery.etcd.io/new
-  discovery:https://discovery.etcd.io/d8fbabc3377c4ec513faa697c69da481
+  discovery: https://discovery.etcd.io/d8fbabc3377c4ec513faa697c69da481
 
   units:
     - name: etcd.service
